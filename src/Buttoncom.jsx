@@ -1,11 +1,15 @@
 import './App.css';
 import { Button } from 'antd';
-function button() {
+function Buttoncom() {
+  const onBtnClick=(e)=>{
+console.log("i ckikced btn")
+  }
   return (
     <div className="App">
-      <Button type="primary">Button</Button>
+      <Button type="default"
+      onClick={onBtnClick}>Button</Button>
     </div>
   );
 }
 
-export default button;
+export default Buttoncom;
