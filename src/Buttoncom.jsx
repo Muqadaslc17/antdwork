@@ -1,7 +1,7 @@
 import './App.css';
 import { Button } from 'antd';
 import { useState } from 'react';
-import {ArrowRightOutlined} from '@antd-design/icons'
+//import {ArrowRightOutlined} from '@antd-design/icons'
 
 function Buttoncom() {
   const [Loading,setLoading]=useState(false);
