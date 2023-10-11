@@ -1,11 +1,14 @@
 
 import './App.css';
 import { Button } from 'antd';
+import Modalcom from "../src/Modalcom"
 function App() {
   return (
-    <div className="App">
-      <Button type="primary">Button</Button>
-    </div>
+    <>
+  <Modalcom></Modalcom>
+  <Buttoncom></Buttoncom>
+    </>
+    
   );
 }
 
